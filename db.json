@@ -1,12 +1,12 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "postTitle": "Post 1", documentID: 1, userID: 1, "postContent": "Content 1" },
+    { "id": 2, "postTitle": "Post 2", documentID: 1, userID: 1, "postContent": "Content 2" },
+    { "id": 3, "postTitle": "Post 3", documentID: 2, userID: 1, "postContent": "Content 3" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "commentContent": "some comment", "postID": 1 , "commentTitle": "some comment"},
+    { "id": 2, "commentContent": "some comment", "postID": 2, "commentTitle": "some comment" }
   ],
   "profile": {
     "name": "typicode"
