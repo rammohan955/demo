@@ -3,22 +3,22 @@
       {
          "id":1,
          "postTitle":"Post 1",
-         "documentID":1,
-         "userID":1,
+         "documentId":1,
+         "userId":1,
          "postContent":"Content 1"
       },
       {
          "id":2,
          "postTitle":"Post 2",
-         "documentID":1,
-         "userID":1,
+         "documentId":1,
+         "userId":1,
          "postContent":"Content 2"
       },
       {
          "id":3,
          "postTitle":"Post 3",
-         "documentID":2,
-         "userID":1,
+         "documentId":2,
+         "userId":1,
          "postContent":"Content 3"
       }
    ],
@@ -26,17 +26,17 @@
       {
          "id":1,
          "commentContent":"some comment",
-         "postID":1,
+         "postId":1,
          "commentTitle":"some comment"
       },
       {
          "id":2,
          "commentContent":"some comment",
-         "postID":2,
+         "postId":2,
          "commentTitle":"some comment"
       }
    ],
    "profile":{
-      "name":"typicode"
+      "name":"ram"
    }
 }
